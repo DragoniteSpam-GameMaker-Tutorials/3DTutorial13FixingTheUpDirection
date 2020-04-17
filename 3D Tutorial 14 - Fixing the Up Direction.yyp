@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "3d00c88b-f702-48aa-a4f0-14ed894b40f0",
-            "Value": {
-                "id": "9b1c629c-2774-484c-92ef-082a2cfa180d",
-                "resourcePath": "datafiles_yy\\merry.vbuff.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "3f6a99c1-09cf-4431-8967-8947c11b1432",
             "Value": {
                 "id": "5031cad2-a674-4b4a-b72f-5d7b6cfdb898",
@@ -135,14 +127,6 @@
             }
         },
         {
-            "Key": "535729b8-e9b1-4720-8fd0-b2573d0d4e68",
-            "Value": {
-                "id": "14cc8fea-ef8e-4c24-9de5-858141ac74e5",
-                "resourcePath": "datafiles_yy\\merry.obj.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "66acd5fd-a70b-4f05-a55e-e8b49017f179",
             "Value": {
                 "id": "7b8d8ea9-365e-429b-a470-74446730a47e",
@@ -159,18 +143,10 @@
             }
         },
         {
-            "Key": "817fa204-d359-4b7a-b60b-764f5deea1e5",
+            "Key": "8d2d77c1-fa6a-4fe8-924e-59cc92dba712",
             "Value": {
-                "id": "e5a74794-527b-41fa-b0b8-61025187a765",
-                "resourcePath": "datafiles_yy\\merry.d3d.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "8eb3feda-760a-47ae-bb6b-71309eaae2aa",
-            "Value": {
-                "id": "78590513-f54e-433f-9039-1683642f33f4",
-                "resourcePath": "datafiles_yy\\merry.mtl.yy",
+                "id": "2cbbf617-6323-42f1-aaee-49e741bc75ca",
+                "resourcePath": "datafiles_yy\\merry.vbuff.yy",
                 "resourceType": "GMIncludedFile"
             }
         },

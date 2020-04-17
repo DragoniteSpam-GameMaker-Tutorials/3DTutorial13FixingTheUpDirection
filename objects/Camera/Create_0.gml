@@ -44,13 +44,12 @@ vertex_end(vbuffer);
 #endregion
 
 skybox = load_model("skybox.gmmod");
-/*
+
 var t = get_timer();
 //merry = load_obj("merry.obj", "merry.mtl");
 var merry_data = buffer_load("merry.vbuff");
 merry = vertex_create_buffer_from_buffer(merry_data, vertex_format);
 buffer_delete(merry_data);
 show_debug_message("Loading the Merry took " + string((get_timer() - t) / 1000) + " milliseconds");
-*/
-merry = load_model("merry.d3d");
+
 instance_create_depth(0, 0, 0, Player);
