@@ -1,7 +1,7 @@
 /// @description Insert description here
 
 look_dir -= (window_mouse_get_x() - window_get_width() / 2) / 10;
-look_pitch -= (window_mouse_get_y() - window_get_height() / 2) / 10;
+look_pitch += (window_mouse_get_y() - window_get_height() / 2) / 10;
 look_pitch = clamp(look_pitch, -80, 80);
 
 window_mouse_set(window_get_width() / 2, window_get_height() / 2);

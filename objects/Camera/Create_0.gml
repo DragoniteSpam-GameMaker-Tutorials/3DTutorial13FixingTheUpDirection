@@ -29,13 +29,13 @@ for (var i = 0; i < room_width; i += s) {
         }
         
         #region add data to the vertex buffer
-        vertex_add_point(vbuffer, i, j, 100,                0, 0, 1,        0, 0,       color, 1);
-        vertex_add_point(vbuffer, i + s, j, 100,            0, 0, 1,        1, 0,       color, 1);
-        vertex_add_point(vbuffer, i + s, j + s, 100,        0, 0, 1,        1, 1,       color, 1);
+        vertex_add_point(vbuffer, i, j, 0,                0, 0, 1,        0, 0,       color, 1);
+        vertex_add_point(vbuffer, i + s, j, 0,            0, 0, 1,        1, 0,       color, 1);
+        vertex_add_point(vbuffer, i + s, j + s, 0,        0, 0, 1,        1, 1,       color, 1);
 
-        vertex_add_point(vbuffer, i + s, j + s, 100,        0, 0, 1,        1, 1,       color, 1);
-        vertex_add_point(vbuffer, i, j + s, 100,            0, 0, 1,        0, 1,       color, 1);
-        vertex_add_point(vbuffer, i, j, 100,                0, 0, 1,        0, 0,       color, 1);
+        vertex_add_point(vbuffer, i + s, j + s, 0,        0, 0, 1,        1, 1,       color, 1);
+        vertex_add_point(vbuffer, i, j + s, 0,            0, 0, 1,        0, 1,       color, 1);
+        vertex_add_point(vbuffer, i, j, 0,                0, 0, 1,        0, 0,       color, 1);
         #endregion
     }
 }
@@ -44,12 +44,13 @@ vertex_end(vbuffer);
 #endregion
 
 skybox = load_model("skybox.gmmod");
-
+/*
 var t = get_timer();
 //merry = load_obj("merry.obj", "merry.mtl");
 var merry_data = buffer_load("merry.vbuff");
 merry = vertex_create_buffer_from_buffer(merry_data, vertex_format);
 buffer_delete(merry_data);
 show_debug_message("Loading the Merry took " + string((get_timer() - t) / 1000) + " milliseconds");
-
+*/
+merry = load_model("merry.d3d");
 instance_create_depth(0, 0, 0, Player);

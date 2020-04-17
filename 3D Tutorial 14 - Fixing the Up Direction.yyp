@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "817fa204-d359-4b7a-b60b-764f5deea1e5",
+            "Value": {
+                "id": "e5a74794-527b-41fa-b0b8-61025187a765",
+                "resourcePath": "datafiles_yy\\merry.d3d.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "8eb3feda-760a-47ae-bb6b-71309eaae2aa",
             "Value": {
                 "id": "78590513-f54e-433f-9039-1683642f33f4",
